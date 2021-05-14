@@ -1,0 +1,59 @@
+.App{
+  display: flex;
+  flex-direction: row;
+}
+.user-list{
+  width: 20%;
+  min-width: 300px;
+  background-color: #fff;
+  height: 100vh;
+  overflow: auto;
+}
+/* .user-list:hover, user:hover{
+  overflow-y: scroll
+} */
+.user{
+  background-color: aqua;
+  height: 100px;
+  border: 1px solid black;
+}
+.user:hover{
+  background-color: cadetblue;
+}
+.chat{
+  width: 40%;
+  border: 1px solid black;
+  background-color: darksalmon;
+  height: 100vh;
+  overflow: auto;
+}
+/* .chat:hover, .message:hover{
+  overflow: scroll;
+} */
+.massage{
+  border: 1px solid black;
+  min-height: 50px;
+  max-width: 80%;
+
+}
+.massage:hover{
+  background-color: deepskyblue;
+}
+.expand{
+  width: 40%;
+  height: 100vh;
+}
+.expand1{
+  border: 1px solid black;
+  height: 50vh;
+  overflow: auto;
+}
+/* .expand1:hover{
+  overflow: scroll;
+} */
+.expand-child{
+  border: 1px solid black;
+  height: 100px;
+  margin: 20px;
+  
+}
