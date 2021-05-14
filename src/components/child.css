@@ -1,0 +1,76 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    overflow-x: hidden;
+    font-weight: 300;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+button,
+textarea,
+select {
+    font-size: 1.4rem;
+    font-weight: 300;
+    outline: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.noti {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.noti--success {
+    background-color: #00bf9a;
+}
+
+.noti--message {
+    background-color: rgb(0, 174, 253);
+}
+
+.noti .icon {
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.noti .desc {
+    font-weight: 300;
+    font-size: 1.4rem;
+    padding-right: 2rem;
+    line-height: 1.6;
+}
+
+.noti .close {
+    margin-left: auto;
+    cursor: pointer;
+}
