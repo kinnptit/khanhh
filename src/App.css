@@ -1,6 +1,7 @@
 .App{
   display: flex;
   flex-direction: row;
+  height: 100vh;
 }
 .user-list{
   width: 20%;
@@ -21,9 +22,8 @@
   background-color: rgb(181, 181, 181);
 }
 .chat{
-  width: 40%;
   border: 1px solid black;
-  height: 100vh;
+  /*height: 100vh;*/
   overflow: auto;
 }
 /* .chat:hover, .message:hover{

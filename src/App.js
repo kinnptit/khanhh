@@ -6,8 +6,8 @@ import {
 } from "react-router-dom";
 
 import UserList from './components/UserList'
-import Chat from './components/Chat'
 import Expand from './components/Expand'
+import {GroupMessageContainer} from "./components/GroupMessageContainer";
 
 function App() {
     return (
@@ -16,7 +16,7 @@ function App() {
                 <Route path="/:userId">
                     <div className="App">
                         <UserList/>
-                        <Chat/>
+                        <GroupMessageContainer />
                         <Expand/>
                     </div>
                 </Route>
